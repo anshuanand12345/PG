@@ -1,0 +1,125 @@
+.border {
+    width: 100%;
+    height: 87vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.border .halfcircle {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 60%;
+    background-color: black;
+    position: absolute;
+    left: -600px;
+    bottom: -650px;
+    z-index: -1;
+}
+
+.border .halfcircle2 {
+    width: 800px;
+    height: 1000px;
+    border-radius: 60%;
+    background-color: black;
+    position: absolute;
+    right: -600px;
+    top: -650px;
+    z-index: -1;
+}
+
+.border .sidebar {
+    width: 350px;
+    height: 420px;
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    z-index: 1;
+    text-align: justify;
+    color: white;
+
+}
+
+.border .sidebar .head {
+    text-align: center;
+    padding: 6px;
+
+}
+
+.border .sidebar .head h1 {
+    font-size: 35px;
+    color: white;
+
+}
+
+.border .sidebar .body {
+    display: flex;
+    margin: 17px 0px;
+    padding: 5px 10px;
+    align-items: center;
+
+
+}
+
+.border .sidebar .body h2 {
+    font-size: 25px;
+    color: white;
+    padding: 0px 20px;
+}
+
+.border .sidebar .down {
+    text-align: center;
+}
+
+.border .sidebar .down #base {
+    font-size: 35px;
+    margin: 12px;
+}
+
+.border .sidebar .down .one {
+    color: #4267B2;
+}
+
+.border .sidebar .down .two {
+    color: #8a3ab9;
+}
+
+.border .sidebar .down .three {
+    color: #25D366;
+}
+
+.border .sidebar .down .four {
+    color: #FF0000;
+}
+
+.border .mainborder {
+    width: 70%;
+    height: 75%;
+    margin: 5% 15% 5% 15%;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    background-color: white;
+
+
+}
+
+.border .mainborder .firstline {
+    display: flex;
+    margin: 30px 90px;
+    
+}
+
+.border .mainborder .firstline #standard-multiline-flexible {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.border .mainborder .firstline .textfield {
+    width: 500px;
+}
+.border .mainborder .firstline .but{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,122 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 50px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+.header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+.header .logo .icon{
+   font-size: 55px;
+   margin: 0px 10px;
+   color: black;
+
+}
+.header .logo h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 5px;
+}
+.header .logo h1 span {
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+.header .menu{
+    display: flex;
+    justify-content: center;
+}
+.header .menu .menulink {
+   margin: 10px;
+   text-decoration: none;
+   color: black;
+   font-size: 25px;
+   font-weight: 500;
+   position: relative;
+}
+.header .menu .menulink::before{
+  position: absolute;
+  content: "";
+  left: 0%;
+  top: 100%;
+  height: 3px;
+  width: 0%;
+  background-color: black;
+  transition: all 0.5s linear;
+}
+.header .menu .menulink:hover:before {
+    width: 100%;
+}
+.header .but button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px 10px;
+    transition: all 0.5s linear;
+    border-radius: 10px;
+}
+.header .but button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+
+}
+.calen{
+    display: none;
+}
+@media only screen and (max-width: 1300px) {
+    
+    .header .menu{
+       display: grid;
+       grid-template-columns: auto;
+       position: absolute;
+       top: 13%;
+       right: 5%;
+       background-color: black;
+       width: 200px;
+       height: 500px;
+       z-index: 1;
+       
+    }
+        .header .menu .menulink{
+        color: white;
+
+        }
+    .calen{
+        display: flex;
+        position: absolute;
+        right: 30px;
+    }
+    .header .but{
+        position: absolute;
+        right: 15%;
+    }
+        .header .logo .icon {
+           font-size: 40px;
+            margin: 0px 10px;
+            color: black;
+        }
+                .header .logo h1 {
+                    font-size: 22px;
+                    font-weight: 300;
+                    margin: 5px;
+                }
+        
+                .header .logo h1 span {
+                    font-size: 30px;
+                    font-weight: 500;
+                    color: black;
+                }
+}
+

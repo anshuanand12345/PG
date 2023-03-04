@@ -1,0 +1,74 @@
+.footer {
+    width: 100%;
+    height: 30vh;
+    margin-top: 0px;
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.08);
+    background-color: black;
+}
+
+.footer .details {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0px 20%;
+}
+
+.footer .details .about {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer .details .about h1 {
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 300;
+    opacity: 0.7;
+    color: white;
+}
+
+.footer .details .about h1:hover {
+    opacity: 1;
+}
+
+.footer .details .about h2 {
+    font-size: 19px;
+    margin: 2px;
+    font-weight: 200;
+    opacity: 0.7;
+    color: white;
+}
+
+.footer .details .about h2:hover {
+    opacity: 1;
+}
+
+.footer .down {
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.footer .down #base {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.footer .down .one {
+    color:blue;
+}
+
+.footer .down .two {
+    color: #8a3ab9;
+}
+
+.footer .down .three {
+    color: #25D366;
+}
+
+.footer .down .four {
+    color: #FF0000;
+}
+.footer .details link{
+    text-decoration: none;
+}

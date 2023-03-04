@@ -1,0 +1,114 @@
+.about1 {
+    width: 100%;
+    height: 220vh;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.about1 .main {
+    width: 80%;
+    height: fit-content;
+    margin: 1% 10%;
+    padding: 20px 50px;
+}
+
+.about1 .main h1 {
+    color: black;
+    font-size: 45px;
+}
+
+.about1 .main p {
+    font-size: 20px;
+    margin: 15px 0px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+.about1 .portion {
+    width: 60%;
+    height: 30vh;
+    margin: 1% 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    padding: 7px;
+
+}
+
+.about1 .portion .states {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+    transition: transform .5s;
+    margin: 20px;
+   
+
+}
+.about1 .portion .states:hover{
+ transform: scale(1.1);
+}
+.about1 .portion .states .icons {
+    padding: 7px;
+    line-height: 90px;
+}
+
+.about1 .portion .states .icons .icon {
+    font-size: 55px;
+    color: white;
+
+}
+
+.about1 .portion .states .text {
+    padding: 10px 10px 0px 0px;
+}
+
+.about1 .portion .states .text h4 {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.about1 .portion .states .text h1 {
+    color: white;
+}
+
+.started {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% auto;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+
+}
+
+.started .pic {
+    width: 100%;
+    height: 60vh;
+    margin: 0px 5%;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.started .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.started .textfree {
+    text-align: center;
+    margin: 50px;
+    padding: 0px 10%;
+}
+
+.started .textfree h2 {
+    color: BLACK;
+    font-size: 30px;
+    word-spacing: 5px;
+    font-weight: 500;
+}
+
+.started .textfree p {
+    font-size: 17px;
+}

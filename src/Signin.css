@@ -1,0 +1,52 @@
+figure {
+    width: 100%;
+    height: 100vh;
+     padding: 5%;
+}
+
+figure .back {
+    height: 60vh;
+    margin: 0px 20%;
+}
+
+figure .back .high {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+figure .back .high button {
+    margin: 10px;
+}
+
+figure .back .form {
+    position: relative;
+
+}
+
+figure .back .form .form1 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+}
+
+figure .back .form .form2 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+figure .back .form .mb-3 {
+    width: 400px;
+
+}
+
+.form11 {
+    display: none;
+}
+.but1{
+    background-color: black;
+    color: white;
+}

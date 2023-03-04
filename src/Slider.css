@@ -1,0 +1,32 @@
+.carousel {
+    width: 70%;
+    height: 80vh;
+    margin: 20px 15%;
+    padding: 10px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+    margin-bottom: 7%;
+}
+
+.carousel .d-block {
+    width: 100%;
+    height: 77vh;
+}
+
+.carousel .d-block img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .sale {
+    color: rgb(245, 243, 243);
+}
+
+.carousel .sale h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.carousel .sale p {
+    font-size: 20px;
+    font-weight: 400;
+}
